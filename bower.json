@@ -1,21 +1,20 @@
 {
-  "name": "next-lang-string",
-  "homepage": "https://github.com/afeiship/next-lang-string",
+  "name": "next-net-url",
+  "homepage": "https://github.com/afeiship/next-net-url",
   "authors": [
     "afei"
   ],
   "description": "Url helper based on next toolkit.",
-  "main": "dist/Ajax.js",
+  "main": "dist/Url.js",
   "moduleType": [
     "node"
   ],
   "keywords": [
-    "ajax",
+    "url",
     "next",
     "toolkit"
   ],
   "license": "MIT",
-  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",

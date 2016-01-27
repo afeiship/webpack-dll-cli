@@ -1,17 +1,17 @@
 {
-  "name": "next-lang-string",
+  "name": "next-net-url",
   "version": "1.0.0",
   "description": "Url helper based on next toolkit.",
-  "main": "index.js",
+  "main": "dist/Url.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/afeiship/next-lang-string.git"
+    "url": "git+https://github.com/afeiship/next-net-url.git"
   },
   "keywords": [
-    "ajax",
+    "url",
     "next"
   ],
   "author": "afei",
@@ -22,7 +22,7 @@
     "next-js-core": "^1.0.0"
   },
   "bugs": {
-    "url": "https://github.com/afeiship/next-lang-string/issues"
+    "url": "https://github.com/afeiship/next-net-url/issues"
   },
-  "homepage": "https://github.com/afeiship/next-lang-string#readme"
+  "homepage": "https://github.com/afeiship/next-net-url#readme"
 }

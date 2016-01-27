@@ -1,0 +1,29 @@
+{
+  "name": "next-lang-string",
+  "homepage": "https://github.com/afeiship/next-lang-string",
+  "authors": [
+    "afei"
+  ],
+  "description": "String helper based on next toolkit.",
+  "main": "dist/Ajax.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "ajax",
+    "next",
+    "toolkit"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "next-js-core": "*"
+  }
+}

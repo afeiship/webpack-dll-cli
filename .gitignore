@@ -1,0 +1,9 @@
+### Node template
+# Logs
+logs
+*.log
+npm-debug.log*
+node_modules
+bower_components
+.idea
+dist

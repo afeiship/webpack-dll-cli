@@ -1,7 +1,7 @@
 {
   "name": "next-lang-string",
   "version": "1.0.0",
-  "description": "String helper based on next toolkit.",
+  "description": "Url helper based on next toolkit.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -4,7 +4,7 @@
   "authors": [
     "afei"
   ],
-  "description": "String helper based on next toolkit.",
+  "description": "Url helper based on next toolkit.",
   "main": "dist/Ajax.js",
   "moduleType": [
     "node"

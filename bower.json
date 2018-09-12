@@ -1,28 +1,27 @@
 {
-  "name": "next-net-url",
-  "homepage": "https://github.com/afeiship/next-net-url",
+  "name": "next-url",
+  "version": "0.0.1",
+  "description": "A simple, lightweight url parser for JavaScript",
+  "main": "dist/next-url.js",
   "authors": [
     "afei"
   ],
-  "description": "Url helper based on next toolkit.",
-  "main": "dist/Url.js",
-  "moduleType": [
-    "node"
-  ],
-  "keywords": [
-    "url",
-    "next",
-    "toolkit"
-  ],
   "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "homepage": "https://github.com/afeiship/next-url",
+  "moduleType": [
+    "amd"
+  ],
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
-    "tests"
-  ],
-  "devDependencies": {
-    "next-js-core": "*"
-  }
+    "tests",
+    "src",
+    "build",
+    "gulpfile.js"
+  ]
 }

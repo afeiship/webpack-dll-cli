@@ -1,28 +1,32 @@
 {
-  "name": "next-net-url",
-  "version": "1.0.0",
-  "description": "Url helper based on next toolkit.",
-  "main": "dist/Url.js",
+  "name": "next-url",
+  "version": "0.0.1",
+  "description": "A simple, lightweight url parser for JavaScript",
+  "homepage": "https://github.com/afeiship/next-url",
+  "author": {
+    "name": "afei",
+    "email": "1290657123@qq.com"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp",
+    "version": "gulp bump"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/afeiship/next-net-url.git"
-  },
-  "keywords": [
-    "url",
-    "next"
-  ],
-  "author": "afei",
+  "main": "dist/next-url.js",
   "license": "MIT",
   "devDependencies": {
-    "del": "^2.2.0",
-    "gulp-uglify": "^1.5.1",
-    "next-js-core": "^1.0.0"
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-bump": "^2.7.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-size": "^2.1.0",
+    "gulp-uglify": "^2.1.2",
+    "yargs": "^4.7.1",
+    "mocha": "^3.5.0"
   },
-  "bugs": {
-    "url": "https://github.com/afeiship/next-net-url/issues"
-  },
-  "homepage": "https://github.com/afeiship/next-net-url#readme"
+  "dependencies": {
+    "next-js-core2": "github:afeiship/next-js-core2"
+  }
 }

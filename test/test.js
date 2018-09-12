@@ -50,4 +50,21 @@ describe('next/url', function () {
     })
   });
 
+
+
+  it('nx.Url: baidu://sy-news?id=12 customize protocol', function () {
+    var url = 'baidu://sy-news?id=12';
+    var parsed = NxUrl.parse(url);
+
+    // console.log(parsed);
+
+    assert.deepEqual(parsed, {
+      hostname: 'sy-news',
+      port: '80',
+      protocol: 'baidu',
+      path: '',
+      query: { id: '12' }
+    });
+  });
+
 });

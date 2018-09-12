@@ -25,5 +25,18 @@ NxUrl.parse('https://www.baidu.com')
   path: ''
 }
 */
+
+// customize protocol:
+NxUrl.parse('baidu://sy-news?id=1');
+/*
+{
+  hostname: 'sy-news',
+  port: '80',
+  protocol: 'baidu',
+  path: '',
+  query: { id: '1' }
+}
+*/
+
 ```
 

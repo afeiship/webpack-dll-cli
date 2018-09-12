@@ -52,8 +52,8 @@ describe('next/url', function () {
 
 
 
-  it('nx.Url: baidu://sy-news?id=12 customize protocol', function () {
-    var url = 'baidu://sy-news?id=12';
+  it('nx.Url: baidu://sy-news?id=1 customize protocol', function () {
+    var url = 'baidu://sy-news?id=1';
     var parsed = NxUrl.parse(url);
 
     // console.log(parsed);
@@ -63,7 +63,7 @@ describe('next/url', function () {
       port: '80',
       protocol: 'baidu',
       path: '',
-      query: { id: '12' }
+      query: { id: '1' }
     });
   });
 

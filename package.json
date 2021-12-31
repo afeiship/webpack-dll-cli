@@ -36,16 +36,23 @@
     "/bin",
     "/lib"
   ],
-  "homepage": "https://github.com/afeiship/webpack-dll-cli",
+  "homepage": "https://js.work",
   "keywords": [
-    "oclif"
+    "webpack",
+    "dll",
+    "plugin",
+    "cli",
+    "cra"
   ],
   "license": "MIT",
   "main": "lib/index.js",
   "oclif": {
     "bin": "wpkdc"
   },
-  "repository": "afeiship/webpack-dll-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/afeiship/webpack-dll-cli.git"
+  },
   "scripts": {
     "build": "rm -rf lib && tsc -b && oclif-dev readme",
     "test": "echo NO TESTS",

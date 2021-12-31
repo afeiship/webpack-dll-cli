@@ -1,0 +1,7 @@
+name: template
+config:
+  path: .tmp/assets/libs
+  entry:
+    venders:
+      - react
+      - react-dom

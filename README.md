@@ -1,42 +1,31 @@
-# next-url
-> A simple, lightweight url parser for JavaScript
+# webpack-dll-cli
+> Wepack dll plugin to be a simply cli.
 
-## resources:
-+ https://github.com/websanova/js-url
+[![Version](https://img.shields.io/npm/v/webpack-dll-cli.svg)](https://npmjs.org/package/webpack-dll-cli)
+[![Downloads/week](https://img.shields.io/npm/dw/webpack-dll-cli.svg)](https://npmjs.org/package/webpack-dll-cli)
+[![License](https://img.shields.io/npm/l/webpack-dll-cli.svg)](https://github.com/afeiship/webpack-dll-cli/blob/master/package.json)
 
-## usage:
-```js
-import NxUrl from 'next-url';
-
-// url:
-NxUrl.url('hostname','https://www.baidu.com')
-// www.baidu.com
-
-//parse
-NxUrl.parse('https://www.baidu.com')
-/*
-{ 
-  tld: 'com',
-  domain: 'baidu.com',
-  hostname: 'www.baidu.com',
-  sub: 'www',
-  port: '443',
-  protocol: 'https',
-  path: ''
-}
-*/
-
-// customize protocol:
-NxUrl.parse('baidu://sy-news?id=1');
-/*
-{
-  hostname: 'sy-news',
-  port: '80',
-  protocol: 'baidu',
-  path: '',
-  query: { id: '1' }
-}
-*/
-
+## installation
+```shell
+npm i -g webpack-dll-cli
 ```
 
+## usgae
+```shell
+# 1. create config file
+wpkc -i
+
+# 2. generate dll files
+wpkc
+```
+
+##  .webpack.dll.yml
+```yml
+name: webpack-dll-config
+config:
+  path: src/assets/libs
+  entry:
+    venders:
+      - react
+      - react-dom
+```

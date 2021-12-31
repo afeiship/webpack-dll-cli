@@ -1,5 +1,5 @@
 # webpack-dll-cli
-> Wepack dll plugin to be a simply cli.
+> Webpack dll plugin to be a simply cli.
 
 [![Version](https://img.shields.io/npm/v/webpack-dll-cli.svg)](https://npmjs.org/package/webpack-dll-cli)
 [![Downloads/week](https://img.shields.io/npm/dw/webpack-dll-cli.svg)](https://npmjs.org/package/webpack-dll-cli)

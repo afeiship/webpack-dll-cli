@@ -1,6 +1,6 @@
 {
   "name": "webpack-dll-cli",
-  "description": "Wepack dll plugin to be a simply cli.",
+  "description": "Webpack dll plugin to be a simply cli.",
   "version": "1.0.0",
   "author": "afeiship @afeiship",
   "bin": {

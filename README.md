@@ -19,6 +19,19 @@ wpkc -i
 wpkc
 ```
 
+## help
+```
+Generate dll files use webpack.DllPlugin.
+
+USAGE
+  $ wpkdc
+
+OPTIONS
+  -h, --help     show CLI help
+  -i, --init     Generate .webpack.dll.yml file.
+  -v, --version  show CLI version
+```
+
 ##  .webpack.dll.yml
 ```yml
 name: webpack-dll-config

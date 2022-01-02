@@ -1,6 +1,10 @@
 name: template
-config:
-  path: .tmp/assets/libs
+css:
+  path: src/assets/libs/css
+  entry: ./src/assets/styles/index.scss
+
+js:
+  path: src/assets/libs/js
   entry:
     venders:
       - react

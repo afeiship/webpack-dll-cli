@@ -16,7 +16,9 @@
     "@oclif/plugin-help": "^3.3.1",
     "app-root-path": "^3.0.0",
     "fs-extra": "^10.0.0",
-    "tslib": "^1.14.1"
+    "mini-css-extract-plugin": "^0.11.3",
+    "tslib": "^1.14.1",
+    "webpack-fix-style-only-entries": "^0.6.1"
   },
   "devDependencies": {
     "@oclif/dev-cli": "^1.26.10",

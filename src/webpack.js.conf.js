@@ -4,7 +4,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const NxYamlConfiguration = require('@jswork/next-yaml-configuration');
 const cwd = process.cwd();
 const conf = new NxYamlConfiguration({ path: path.join(cwd, '.webpack.dll.yml') });
-const config = conf.get('config');
+const config = conf.get('js');
 
 module.exports = {
   mode: 'production',

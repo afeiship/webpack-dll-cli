@@ -7,7 +7,7 @@
 
 ## installation
 ```shell
-npm i -g webpack-dll-cli
+npm i -g @jswork/webpack-dll-cli
 ```
 
 ## usgae

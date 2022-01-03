@@ -15,8 +15,11 @@ npm i -g @jswork/webpack-dll-cli
 # 1. create config file
 wpkc -i
 
-# 2. generate dll files
+# 2.1 generate js dll files
 wpkc
+
+# 2.2 generate css dll file
+wpkc -t=css
 ```
 
 ## help
@@ -27,9 +30,10 @@ USAGE
   $ wpkdc
 
 OPTIONS
-  -h, --help     show CLI help
-  -i, --init     Generate .webpack.dll.yml file.
-  -v, --version  show CLI version
+  -h, --help           show CLI help
+  -i, --init           Generate .webpack.dll.yml file.
+  -t, --type=(css|js)  [default: js] Type of asset(css/js).
+  -v, --version        show CLI version
 ```
 
 ##  .webpack.dll.yml

@@ -40,7 +40,7 @@ module.exports = {
     new FixStyleOnlyEntriesPlugin(),
     // Where the compiled SASS is saved to
     new MiniCssExtractPlugin({
-      filename: '[name].[hash:6].css',
+      filename: '[name].[hash:6].dll.css',
       allChunks: true,
     }),
   ],

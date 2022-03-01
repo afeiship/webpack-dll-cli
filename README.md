@@ -36,11 +36,15 @@ OPTIONS
   -v, --version        show CLI version
 ```
 
-##  .webpack.dll.yml
+##  .webpack.example.dll.yml
 ```yml
-name: webpack-dll-config
-config:
-  path: src/assets/libs
+name: template
+css:
+  path: src/assets/libs/css
+  entry: ./src/assets/styles/index.scss
+
+js:
+  path: src/assets/libs/js
   entry:
     venders:
       - react

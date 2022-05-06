@@ -5,7 +5,10 @@ import path from 'path';
 import nx from '@jswork/next';
 import '@jswork/next-log';
 
-const ASSETS_TYPE = ['css', 'js'];
+enum ASSETS_TYPE {
+  css = 'css',
+  js = 'js',
+};
 
 class WebpackDllCli extends Command {
   static description = 'Generate dll files use webpack.DllPlugin.';
@@ -16,8 +19,8 @@ class WebpackDllCli extends Command {
     type: flags.enum({
       char: 't',
       description: 'Type of asset(css/js).',
-      options: ASSETS_TYPE,
-      default: 'js',
+      options: Object.keys(ASSETS_TYPE),
+      default: ASSETS_TYPE.js,
     }),
     init: flags.boolean({ char: 'i', description: 'Generate .webpack.dll.yml file.' }),
   };

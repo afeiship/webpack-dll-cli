@@ -6,6 +6,6 @@ css:
 js:
   path: src/assets/libs/js
   entry:
-    venders:
+    vendors:
       - react
       - react-dom

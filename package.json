@@ -1,7 +1,7 @@
 {
   "name": "webpack-dll-cli",
   "description": "Webpack dll plugin to be a simply cli.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "afeiship @afeiship",
   "bin": {
     "wpkdc": "./bin/run"
@@ -25,7 +25,7 @@
     "@types/node": "^10.17.60",
     "clean-webpack-plugin": "^4.0.0",
     "prettier": "^2.5.1",
-    "release-it": "^14.11.8",
+    "release-it": "^14.14.3",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.10",
     "webpack": "^4.46.0",
@@ -44,7 +44,8 @@
     "dll",
     "plugin",
     "cli",
-    "cra"
+    "cra",
+    "wpkdc"
   ],
   "license": "MIT",
   "main": "lib/index.js",

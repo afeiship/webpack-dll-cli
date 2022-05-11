@@ -14,13 +14,13 @@ npm i -g @jswork/webpack-dll-cli
 ## usgae
 ```shell
 # 1. create config file
-wpkc -i
+wpkdc -i
 
 # 2.1 generate js dll files
-wpkc
+wpkdc
 
 # 2.2 generate css dll file
-wpkc -t=css
+wpkdc -t=css
 ```
 
 ## help

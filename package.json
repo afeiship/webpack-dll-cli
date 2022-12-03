@@ -9,7 +9,6 @@
   "bugs": "https://github.com/afeiship/webpack-dll-cli/issues",
   "dependencies": {
     "@jswork/next": "^1.0.9",
-    "@jswork/next-log": "^1.0.0",
     "@jswork/next-yaml-configuration": "^1.0.3",
     "@oclif/command": "^1.8.16",
     "@oclif/config": "^1.18.2",

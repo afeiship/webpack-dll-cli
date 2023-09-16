@@ -3,7 +3,7 @@
 
 ## installation
 ```shell
-npm i -D webpack webpack-cli 
+npm i -D webpack webpack-cli@4.9.1
 npm i -g @jswork/webpack-dll-cli
 ```
 

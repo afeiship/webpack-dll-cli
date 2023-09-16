@@ -6,13 +6,10 @@
     "outDir": "lib",
     "rootDir": "src",
     "strict": true,
-    "target": "es2017",
+    "target": "ES2015",
     "esModuleInterop": true,
     "skipDefaultLibCheck": true,
-    "noImplicitAny": false,
-    "typeRoots": [
-      "./node_modules/@types"
-    ]
+    "noImplicitAny": false
   },
   "include": [
     "src/**/*"

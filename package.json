@@ -1,5 +1,6 @@
 {
   "name": "@jswork/webpack-dll-cli",
+  "private": true,
   "description": "Webpack dll plugin to be a simply cli.",
   "version": "1.0.5",
   "author": "afeiship @afeiship",
@@ -8,7 +9,7 @@
   },
   "bugs": "https://github.com/afeiship/webpack-dll-cli/issues",
   "dependencies": {
-    "@jswork/next": "^1.0.9",
+    "@jswork/next": "^1.1.16",
     "@jswork/next-yaml-configuration": "^1.0.3",
     "@oclif/command": "^1.8.16",
     "@oclif/config": "^1.18.2",
